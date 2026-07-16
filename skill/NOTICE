@@ -1,0 +1,34 @@
+playwright-cli-human
+Copyright 2026 playwright-cli-human contributors
+
+This distribution includes modified material from @playwright/cli:
+
+  Project: @playwright/cli
+  Source: https://github.com/microsoft/playwright-cli
+  License: Apache License, Version 2.0
+  Copyright (c) Microsoft Corporation.
+
+The upstream npm package audited for this notice was @playwright/cli 0.1.17.
+That package distributes an Apache-2.0 LICENSE file and no NOTICE file.
+
+The following files are adapted from the upstream bundled playwright-cli
+skill and have been modified by playwright-cli-human contributors:
+
+  skill/SKILL.md
+  skill/references/element-attributes.md
+  skill/references/request-mocking.md
+  skill/references/running-code.md
+  skill/references/session-management.md
+  skill/references/storage-state.md
+  skill/references/tracing.md
+  skill/references/video-recording.md
+
+Modifications include renaming and rescoping the skill, reorganizing the
+documentation, removing test-suite authoring material, adding safety rules,
+and integrating a human-in-the-loop CDP workflow. The bundled lifecycle
+scripts and human-antibot reference were added by this project.
+
+This project is independent and is not affiliated with, sponsored by, or
+endorsed by Microsoft Corporation. Microsoft, Playwright, and related names
+and marks belong to their respective owners and are used here only to identify
+compatibility and the origin of the modified material.

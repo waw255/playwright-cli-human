@@ -1,0 +1,32 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Playwright CLI runtime output
+.playwright-cli/
+.playwright/
+playwright-report/
+test-results/
+blob-report/
+*.trace.zip
+*.webm
+
+# Browser profiles and authentication state
+profiles/
+human-chrome/
+auth.json
+*auth-state*.json
+storage-state*.json
+cookies*.json
+
+# Local build and evaluation artifacts
+dist/
+*.zip
+matrix-results*.json
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
